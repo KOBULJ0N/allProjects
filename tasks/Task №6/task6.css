@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+ 
+  body {
+background-color: #333;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1.1rem;
+color: #fff;
+line-height: 1.5;
+text-align: center;
+ }
+
+ .img-header {
+     background: #333
+      url("https://static.pexels.com/photos/248515/pexels-photo-248515.png");
+      height: 450px;
+      width: 100%;
+      background-position: center;
+      background-size: cover;
+      position: absolute;
+      z-index: -1;
+      opacity: 0.4;
+}
+
+#heading {
+   min-height: 450px;
+ 
+}
+.btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 1em 2em;
+    border: 1px solid #666;
+    margin: 0.5em 0;
+  }
+
+  .btn:hover {
+    background: #eaeaea;
+    color: #333;
+  }
+
+/* SECTIONS */
+
+.section-a,
+.section-c {
+background-color: #eaeaea;
+color: #000;
+padding-bottom: 2em;
+}
+
+ .text {
+padding: 0 5em;
+columns: 2;
+
+}
+.text-left {
+  float: right;
+  width: 60%;
+}
+
+.text-right {
+  float: left;
+  width: 60%;
+} 
+  
+/* // SECTION-B // */
+
+.section-b {
+padding: 2em 1em;
+display: flex;
+justify-content: center;
+align-items: center;
+gap:20px
+
+}
+  .card {
+  background-color: #fff;
+  color: #333;
+  width: 20%;
+  height: auto;
+  }
+  .card-info {
+    padding: 1em 0;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+
+  }
+  /* // SECTION-C // */
+  .section-c {
+    padding-top: 2em;
+}
+    .section-d {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    
+    }
+    .contact {
+      background-color: #2690d4;
+      flex: 50%;
+    }
+    .about {
+     flex: 50%;
+     
+    }
+
+    footer {
+      background-color: black;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 100px;
+    }
+  
+  /*   //// font styles     ////*/
+
+  h2,
+  h3 {
+    margin: 0;
+    padding: 1.2em 0;
+  }
+
+  p {
+    margin: 0;
+    padding: 1.1em 0;
+  }
+
+
+h1 {
+    padding-top: 100px ;
+}
+
+a {
+  text-decoration: none;
+  color:rgb(85, 139, 238) ;
+}

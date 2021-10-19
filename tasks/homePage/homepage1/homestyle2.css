@@ -1,0 +1,53 @@
+/* * { 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+} */
+
+body {
+    font-family:sans-serif;
+    width: 90%;
+    height: 100vh;
+    background-color: rgb(66, 119, 199);
+
+}
+
+.header {
+    text-align: center;
+    font-size: 50px;
+}
+ a {
+    text-decoration: none;
+    color: rgb(6, 86, 122);
+    background-color: cornsilk;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50px;
+    
+} 
+li a {
+padding: 0;
+margin: 10;
+background-color: none;
+}
+
+.center {
+   
+  
+    height: 100vh;
+    
+
+}
+
+h1 {
+
+
+}
+
+h2 {
+    font-size: 30px;
+    color: rgb(8, 50, 51);
+    margin: 10px;
+    padding: 10px;
+}
+

@@ -1,0 +1,38 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+   font-family:sans-serif;
+   width: 90%;
+    height: 100vh;
+}
+
+.header {
+    text-align: center;
+    font-size: 50px;
+}
+a {
+    text-decoration: none;
+    color: #eee);
+    padding: 5px;
+    background-color: cornflowerblue;
+    margin: 5px;
+    border: 2px solid rgb(31, 25, 25);
+    
+}
+.center {
+    position: absolute;
+    background: rgb(114, 224, 200);
+    overflow: hidden;
+    height: 100vh;
+   
+
+}
+h2 {
+    font-size: 30px;
+    color: rgb(8, 50, 51);
+    margin: 10px;
+    padding: 10px;
+}
